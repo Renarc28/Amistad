@@ -18,10 +18,11 @@ document.addEventListener('click', (e) => {
                 setTimeout(() => {
                     letter.classList.remove('letter-opening');
                     letter.classList.add('opened');
-
+                    
                     audio.play();
-
+                    
                     launchConfetti();  
+                    
 
                 }, 500);
             }, 1000);
@@ -42,7 +43,8 @@ document.addEventListener('click', (e) => {
 function launchConfetti() {
     confetti({
         particleCount: 100, 
-        spread: 80,        
+        spread: 80,
         origin: { y: 0.6 } 
     });
 }
+
