@@ -47,4 +47,3 @@ function launchConfetti() {
         origin: { y: 0.6 } 
     });
 }
-
